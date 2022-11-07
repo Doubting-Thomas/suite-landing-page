@@ -1,0 +1,37 @@
+:root {
+  --color-dark-blue: hsl(219, 43%, 16%);
+  --color-blue: hsl(218, 20%, 38%);
+  --color-grey: hsl(30, 33%, 93%);
+  --color-light-grey: hsl(30, 29%, 97%);
+  --color-violet: hsl(264, 100%, 69%);
+  --color-pink: hsl(292, 76%, 54%);
+  --color-orange: hsl(31, 100%, 65%);
+
+  --bg-button: linear-gradient(
+    135deg,
+    #a060ff 0%,
+    #cb30e3 49.21%,
+    #ffa84e 100%
+  );
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 60rem;
+  font-family: "Epilogue", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
